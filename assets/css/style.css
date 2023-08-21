@@ -38,6 +38,14 @@
     background-color: #525252;
 }
 
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
@@ -361,6 +369,8 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+div#map {min-height: 360px;}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
@@ -370,3 +380,4 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+
